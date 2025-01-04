@@ -8,7 +8,12 @@
 }
 
 body {
-    background: #44195e;
+    background: rgb(125,70,158);
+    background: -moz-linear-gradient(0deg, rgba(125,70,158,1) 0%, rgba(68,25,94,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(125,70,158,1) 0%, rgba(68,25,94,1) 100%);
+    background: linear-gradient(0deg, rgba(125,70,158,1) 0%, rgba(68,25,94,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7d469e",endColorstr="#44195e",GradientType=1);
+    min-height: 100svh;
 }
 
 h1,button{
@@ -27,8 +32,8 @@ button{
     font-size: 0.9rem;
     border-radius: 8px;
     border: 1px solid #121212;
-    background: #fee12b;
-    color: #23a6fd;
+    background: #f6db29;
+    color: rgb(24, 163, 40);
     font-family:"Rubik Mono One", serif;
     cursor: pointer;
 }
@@ -63,4 +68,5 @@ main{
     justify-content: space-around;
     align-items: center;
     min-height: 30svh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
