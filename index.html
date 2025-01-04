@@ -24,7 +24,7 @@
             fetch('https://facts4fun.vercel.app/api/getFact')
             .then(response => response.json())
             .then(data => {
-                if (data && data[0] && data[0].fact) {
+                if (true) {
                     factElement.innerText = data[0].fact;
                 } else {
                     factElement.innerText = 'Failed to load fact.';
