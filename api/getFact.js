@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-    const API_URL = 'https://api.api-ninjas.com/v1/facts?limit=1';
+    const API_URL = 'https://api.api-ninjas.com/v1/facts';
     const API_KEY = process.env.API_KEY;
 
     try {

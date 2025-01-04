@@ -12,7 +12,7 @@
     <main>
         <div class="fact-cont">
             <p id="fact"></p>
-            <button onclick="getFact()" id="getfact">New Fact</button>
+            <button onclick="getFact" id="getfact">New Fact</button>
         </div>
     </main>
 
@@ -24,7 +24,7 @@
             fetch('https://facts4fun.vercel.app/api/getFact')
             .then(response => response.json())
             .then(data => {
-                if (true) {
+                if (data && data[0] && data[0].fact) {
                     factElement.innerText = data[0].fact;
                 } else {
                     factElement.innerText = 'Failed to load fact.';
