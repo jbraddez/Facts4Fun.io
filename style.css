@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #23a6fd;
+}
+
+main{
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 7px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    flex-direction: column;
+}
+
+.fact-cont{
+    border-radius: 13px;
+    border: 1px solid #acacac;
+    padding: 6px;
+    margin-top: 20px;
+    background: rgba(94, 191, 106, 0.8);
+    color: #fefefe;
+    max-width: 600px;
+    width: 80%;
+}
