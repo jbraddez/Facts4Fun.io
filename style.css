@@ -36,6 +36,11 @@ button{
     color: rgb(24, 163, 40);
     font-family:"Rubik Mono One", serif;
     cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+button:hover{
+    scale: 1.1;
 }
 
 p{
