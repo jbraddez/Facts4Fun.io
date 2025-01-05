@@ -39,8 +39,26 @@ button{
     transition: 300ms ease-in-out;
 }
 
+#tts{
+    background: rgb(68,25,94);
+    background: -moz-radial-gradient(circle, rgba(68,25,94,1) 0%, rgba(125,70,158,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(68,25,94,1) 0%, rgba(125,70,158,1) 100%);
+    background: radial-gradient(circle, rgba(68,25,94,1) 0%, rgba(125,70,158,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#44195e",endColorstr="#7d469e",GradientType=1);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
 button:hover{
-    scale: 1.1;
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 p{
@@ -74,4 +92,5 @@ main{
     align-items: center;
     min-height: 30svh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
 }
